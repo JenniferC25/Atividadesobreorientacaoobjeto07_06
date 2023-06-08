@@ -1,0 +1,152 @@
+[
+    {
+        "label": "Pessoa",
+        "importPath": "pessoa",
+        "description": "pessoa",
+        "isExtraImport": true,
+        "detail": "pessoa",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "importPath": "cliente",
+        "description": "cliente",
+        "isExtraImport": true,
+        "detail": "cliente",
+        "documentation": {}
+    },
+    {
+        "label": "Funcionario",
+        "importPath": "funcionario",
+        "description": "funcionario",
+        "isExtraImport": true,
+        "detail": "funcionario",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "kind": 6,
+        "importPath": "cliente",
+        "description": "cliente",
+        "peekOfCode": "class Cliente:\n        def __init__(self) :\n            self.Nome : str \n            self.Sobrenome : str\n            self.Idade : int \n            self.Telefone : int \n        def __str__(self) :\n             return f'{self.Nome} {self.Sobrenome} {self.Idade} {self.Telefone}'",
+        "detail": "cliente",
+        "documentation": {}
+    },
+    {
+        "label": "Funcionario",
+        "kind": 6,
+        "importPath": "funcionario",
+        "description": "funcionario",
+        "peekOfCode": "class Funcionario:\n    def __init__(self) :\n        self.Nome : str \n        self.Sobrenome : str \n        self.Carteiradetrabalho : int\n        self.profissao : str",
+        "detail": "funcionario",
+        "documentation": {}
+    },
+    {
+        "label": "pessoa",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "pessoa = Pessoa (\n                   input (\"Digite seu nome:>>\"),\n                   input('Digite seu sobrenome:>>'),\n                   input('Digite sua idade:>>'),\n                   input('Digite seu cpf:>>'),\n                   input('Digite seu telefone:>>'),\n                   input('Digite sua carteira de trabalho:>>'),\n                   input('Digite a sua profissão: >>')\n                   )\ncliente = Cliente()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "cliente",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "cliente = Cliente()\nfuncionario = Funcionario()\ncliente.Nome = pessoa.Nome\ncliente.Sobrenome = pessoa.Sobrenome\ncliente.Idade = pessoa.Idade\ncliente.Telefone = pessoa.Telefone\nfuncionario.Nome = pessoa.Nome\nfuncionario.Sobrenome = pessoa.Sobrenome\nfuncionario.Carteiradetrabalho = pessoa.Carteiradetrabalho\nfuncionario.profissao = pessoa.profissao",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "funcionario",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "funcionario = Funcionario()\ncliente.Nome = pessoa.Nome\ncliente.Sobrenome = pessoa.Sobrenome\ncliente.Idade = pessoa.Idade\ncliente.Telefone = pessoa.Telefone\nfuncionario.Nome = pessoa.Nome\nfuncionario.Sobrenome = pessoa.Sobrenome\nfuncionario.Carteiradetrabalho = pessoa.Carteiradetrabalho\nfuncionario.profissao = pessoa.profissao",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "cliente.Nome",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "cliente.Nome = pessoa.Nome\ncliente.Sobrenome = pessoa.Sobrenome\ncliente.Idade = pessoa.Idade\ncliente.Telefone = pessoa.Telefone\nfuncionario.Nome = pessoa.Nome\nfuncionario.Sobrenome = pessoa.Sobrenome\nfuncionario.Carteiradetrabalho = pessoa.Carteiradetrabalho\nfuncionario.profissao = pessoa.profissao",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "cliente.Sobrenome",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "cliente.Sobrenome = pessoa.Sobrenome\ncliente.Idade = pessoa.Idade\ncliente.Telefone = pessoa.Telefone\nfuncionario.Nome = pessoa.Nome\nfuncionario.Sobrenome = pessoa.Sobrenome\nfuncionario.Carteiradetrabalho = pessoa.Carteiradetrabalho\nfuncionario.profissao = pessoa.profissao",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "cliente.Idade",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "cliente.Idade = pessoa.Idade\ncliente.Telefone = pessoa.Telefone\nfuncionario.Nome = pessoa.Nome\nfuncionario.Sobrenome = pessoa.Sobrenome\nfuncionario.Carteiradetrabalho = pessoa.Carteiradetrabalho\nfuncionario.profissao = pessoa.profissao",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "cliente.Telefone",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "cliente.Telefone = pessoa.Telefone\nfuncionario.Nome = pessoa.Nome\nfuncionario.Sobrenome = pessoa.Sobrenome\nfuncionario.Carteiradetrabalho = pessoa.Carteiradetrabalho\nfuncionario.profissao = pessoa.profissao",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "funcionario.Nome",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "funcionario.Nome = pessoa.Nome\nfuncionario.Sobrenome = pessoa.Sobrenome\nfuncionario.Carteiradetrabalho = pessoa.Carteiradetrabalho\nfuncionario.profissao = pessoa.profissao",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "funcionario.Sobrenome",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "funcionario.Sobrenome = pessoa.Sobrenome\nfuncionario.Carteiradetrabalho = pessoa.Carteiradetrabalho\nfuncionario.profissao = pessoa.profissao",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "funcionario.Carteiradetrabalho",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "funcionario.Carteiradetrabalho = pessoa.Carteiradetrabalho\nfuncionario.profissao = pessoa.profissao",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "funcionario.profissao",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "funcionario.profissao = pessoa.profissao",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "Pessoa",
+        "kind": 6,
+        "importPath": "pessoa",
+        "description": "pessoa",
+        "peekOfCode": "class Pessoa:\n    def __init__(self, nome, sobrenome, idade, cpf, telefone, carteiradetrabalho, profissao) :\n        self.Nome : str = nome\n        self.Sobrenome : str = sobrenome\n        self.Idade : int = idade\n        self.Cpf : str = cpf\n        self.Telefone : int= telefone\n        self.Carteiradetrabalho : int = carteiradetrabalho\n        self.profissao : str = profissao",
+        "detail": "pessoa",
+        "documentation": {}
+    }
+]
